@@ -1,0 +1,52 @@
+
+.content-box {
+	position: relative;
+}
+
+/* 스크롤이 적용될 수 있는 범위와 사이즈 지정 */
+.scroll-box {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	bottom: 15px;
+	overflow: auto; /*콘텐츠 흘러넘침 방지*/
+}
+
+.photo-box {
+	margin-bottom: 2rem;
+}
+
+.photo-title {
+	height: 2rem;
+	background-color: #D1F0F8;
+	display: flex;
+	align-items: center;
+	padding: 0 1rem;
+	font-family: 'ImcreSoojin';
+	color: #3E85AB;
+}
+
+.photo-contents {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.photo-date {
+	font-size: 0.7rem;
+}
+
+.photo-image {
+	margin-bottom: 1rem;
+}
+
+.photo-image > img {
+	max-width: 100%;
+}
+
+.photo-text {
+	font-size: 0.8rem;
+	font-family: 'Cafe24SsurroundAir';
+}
+

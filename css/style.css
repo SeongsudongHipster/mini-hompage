@@ -1,0 +1,69 @@
+
+* {
+	box-sizing: border-box; 
+	border: none; 
+}
+
+
+
+body {
+	margin: 0;
+	background-image: url(https://cdn.pixabay.com/photo/2020/07/31/05/44/server-5451985_1280.jpg);
+	background-size: cover;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Hanna', sans-serif;
+	color: #1BBC9B;
+	font-size: 3rem;
+}
+
+h2 {
+	font-family: 'Baloo Bhaijaan 2', cursive;
+	color: yellow;
+	font-size: 2em;
+}
+
+.login-form {
+	background-color: #EEEFF1;
+	width: 300px;
+	padding: 20px;
+	border-radius: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.text-field {
+	width: 100%;
+	font-size: 14px;
+	border-radius: 5px;
+	padding: 10px;
+	border: none;
+	margin-bottom: 10px
+	
+}
+
+.submit-btn {
+	width: 100%;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 14px;
+	color: white;
+	background-color: #1BBC9B;
+	border: none;
+
+}
+
+.links {
+	font-size: 12px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.links a {
+	color: #9B9B9B;
+
+}
